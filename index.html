@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi-container">
+        <img src="yo_presentable.png" alt="Foto de perfil" class="sobre-mi-img">
+        <div class="sobre-mi-texto">
+            <h2>Sobre Mí</h2>
+            <p>Soy <strong>Isaac David Chagüi Galeano</strong>, estudiante de <strong>Ingeniería de Sistemas y Computación</strong> en la <strong>Universidad EIA</strong>. Me apasiona la tecnología, el desarrollo de software y la resolución de problemas mediante la programación.</p>
+            <p>Me gradué del <strong>Colegio Colmercedes</strong> en 2022 y desde entonces he adquirido experiencia en diversas áreas laborales, fortaleciendo mis habilidades de trabajo en equipo, responsabilidad y adaptabilidad.</p>
+            <p>Destaco por mi <strong>aprendizaje rápido</strong> y mi curiosidad por explorar nuevas tecnologías. Disfruto enfrentar desafíos que me permitan crecer profesionalmente en el mundo del desarrollo de software.</p>
+        </div>
+    </section>
+    
+    <section id="proyectos">
+        <h2>📌 Mis Proyectos</h2>
+        <div class="proyectos-container">
+            <div class="tarjeta">
+                <h3>Quiz Sorpresa Web</h3>
+                <p>Aplicación para la gestión de placas de vehículos con Nest.js y PostgreSQL.</p>
+                <p><strong>🔹 Tecnologías usadas:</strong> Nest.js, PostgreSQL, TypeORM, HTML, CSS</p>
+                <a href="https://github.com/CHAGUI412/Quiz-Sorpresa-Web" target="_blank">🔗 Ver en GitHub</a>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Calculadora</h3>
+                <p>Aplicación web que simula una calculadora funcional.</p>
+                <p><strong>🔹 Tecnologías usadas:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/CHAGUI412/CAlCULADORA" target="_blank">🔗 Ver en GitHub</a>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Simulador de Dados</h3>
+                <p>Simula el lanzamiento de un dado con animaciones.</p>
+                <p><strong>🔹 Tecnologías usadas:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/CHAGUI412/Simulador-de-Lanzamiento-de-Dados" target="_blank">🔗 Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>✨ Mis Hobbies</h2>
+        <div class="hobbies-container">
+            <div class="hobby">
+                <img src="gym.png" alt="Persona entrenando en el gimnasio" class="hobby-img">
+                <h3>🏋️ Ir al gimnasio</h3>
+                <p>El ejercicio es una parte esencial de mi rutina diaria.</p>
+            </div>
+            <div class="hobby">
+                <img src="videojuegos.png" alt="Persona jugando videojuegos" class="hobby-img">
+                <h3>🎮 Jugar videojuegos</h3>
+                <p>Disfruto juegos competitivos como Fortnite y Valorant.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>📬 Contacto</h2>
+        <p>📧 Correo: <a href="mailto:isaacchagui@gmail.com">isaacchagui@gmail.com</a></p>
+        <p>📞 Teléfono: <a href="tel:+573016619431">3016619431</a></p>
+        <p>📸 Instagram: <a href="https://www.instagram.com/chagui412" target="_blank">@chagui412</a></p>
+
+        <form action="https://formspree.io/f/mwpleypk" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+</body>
+</html>

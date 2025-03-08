@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sección Sobre Mí */
+.sobre-mi-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sobre-mi-img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.sobre-mi-texto {
+    text-align: left;
+    max-width: 600px;
+}
+
+/* Sección Proyectos */
+.proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tarjeta {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hobbies */
+.hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hobby {
+    flex: 1 1 300px;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+/* Contacto */
+#contacto {
+    background: #333;
+    color: white;
+    padding: 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* 📱 Media Queries para móviles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sobre-mi-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .sobre-mi-img {
+        margin: 0 0 20px 0;
+    }
+
+    .proyectos-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .hobbies-container {
+        flex-direction: column;
+    }
+}
