@@ -15,7 +15,7 @@ Este es mi portafolio web personal desarrollado con **HTML y CSS**, donde muestr
 
 ## 🌎 Despliegue
 Puedes ver mi portafolio en vivo aquí:  
-🔗 [Mi Portafolio](https://github.com/CHAGUI412/MI-PORTAFOLIO./tree/master)  
+🔗 [Mi Portafolio](http://127.0.0.1:5500/index.html)  
 
 ## 📥 Instalación local
 Si quieres ejecutar este portafolio en tu PC, sigue estos pasos:
